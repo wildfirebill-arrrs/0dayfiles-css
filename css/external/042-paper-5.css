@@ -1,0 +1,42 @@
+/* 0DayFiles.net — External stylesheet 042: Paper 5 (engine: paper) */
+:root{--ods-bg:#f3f6f7;--ods-surface:#fcfdfd;--ods-ink:#2b241a;--ods-accent:#ca7521;--ods-accent2:#bc2466;--ods-line:rgba(43,36,26,0.14);--ods-radius:2px;}
+html{background:#f3f6f7 !important;color-scheme:light;}
+body{background:#f3f6f7 !important;color:#2b241a !important;font-family:Lora, Georgia, serif !important;}
+body,p,li,td,th,input,textarea,select,button{font-family:Lora, Georgia, serif !important;}
+a{color:#ca7521 !important;text-decoration:none !important;transition:color .18s ease;}
+a:hover{color:#bc2466 !important;}
+h1,h2,h3,h4,h5,h6,.panel__heading{color:#2b241a !important;font-family:Lora, Georgia, serif !important;text-transform:none !important;letter-spacing:0 !important;}
+header .top-nav{background:#fcfdfd !important;border-bottom:1px solid var(--ods-line) !important;box-shadow:none !important;backdrop-filter:none !important;}
+.top-nav__main-menus > li > a,.top-nav__main-menus > li > div{color:#2b241a !important;font-weight:600 !important;}
+.top-nav__main-menus > li > a:hover{color:#bc2466 !important;}
+.ratio-bar, .top-nav__ratio-bar, .ratio-bar__uploaded, .ratio-bar__downloaded, .ratio-bar__seeding, .ratio-bar__leeching, .ratio-bar__points, .ratio-bar__ratio, .ratio-bar__tokens, .ratio-bar__site-pot, .ratio-bar__invites, .ratio-bar__lottery-tickets, .ratio-bar__achievements, .ratio-bar__attendance{color:#2b241a !important;}
+.ratio-bar a{color:#2b241a !important;opacity:.86;}
+.ratio-bar a:hover{opacity:1;color:#ca7521 !important;}
+.panelV2{background:#fcfdfd !important;border:1px solid var(--ods-line) !important;border-radius:2px !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;overflow:hidden !important;}
+.panel__header{background:rgba(202,117,33,0.08) !important;border-bottom:1px solid var(--ods-line) !important;}
+.panel__heading,.panel__heading h2{font-size:1rem !important;}
+.panel__body{color:#2b241a !important;}
+.blocks__featured .featured-shelf__card{background:#fcfdfd !important;border:1px solid var(--ods-line) !important;border-radius:2px !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;transition:transform .2s ease,box-shadow .2s ease;}
+.blocks__featured .featured-shelf__card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.25);}
+.featured-shelf__title,.featured-shelf__title a{color:#2b241a !important;font-weight:700 !important;}
+.featured-shelf__meta,.featured-shelf__by,.featured-shelf__subtitle{color:rgba(43,36,26,0.62) !important;}
+.featured-shelf__badge{background:#ca7521 !important;color:#f3f6f7 !important;border-radius:999px !important;font-weight:700 !important;}
+.featured-shelf__seeders{color:#bc2466 !important;}
+.featured-shelf__leechers{color:#ca7521 !important;}
+.footer__wrapper{background:#fcfdfd !important;border-top:1px solid var(--ods-line) !important;color:rgba(43,36,26,0.78) !important;}
+.footer__section-title{color:#2b241a !important;text-transform:none !important;letter-spacing:0 !important;}
+.footer a{color:rgba(43,36,26,0.72) !important;}
+.footer a:hover{color:#ca7521 !important;}
+.footer__stats,.footer__copyright,.footer__sub-footer{color:rgba(43,36,26,0.5) !important;}
+button,.form__button,.cookie-consent__agree{border-radius:8px !important;font-family:Lora, Georgia, serif !important;}
+.form__button--filled,.cookie-consent__agree{background:#ca7521 !important;color:#f3f6f7 !important;border:1px solid transparent !important;transition:filter .18s ease,transform .18s ease;}
+.form__button--filled:hover,.cookie-consent__agree:hover{filter:brightness(1.12);transform:translateY(-1px);}
+.cookie-consent{background:#fcfdfd !important;color:#2b241a !important;border:1px solid var(--ods-line) !important;border-radius:2px !important;}
+
+body{background-color:#f3f6f7 !important;background-image:repeating-linear-gradient(0deg,rgba(43,36,26,0.035) 0 1px,transparent 1px 28px) !important;}
+.panelV2{border-radius:2px !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;}
+.panel__header{border-bottom:2px solid rgba(43,36,26,0.55) !important;}
+h1,h2,h3,.panel__heading{font-weight:400 !important;}
+.featured-shelf__card{border-radius:2px !important;background-image:none !important;}
+a{text-decoration:underline !important;text-decoration-thickness:1px;text-underline-offset:3px;}
+.footer__wrapper{border-top:3px double rgba(43,36,26,0.45) !important;}

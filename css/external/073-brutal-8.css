@@ -1,0 +1,43 @@
+/* 0DayFiles.net — External stylesheet 073: Brutal 8 (engine: brutal) */
+:root{--ods-bg:#fcfcfd;--ods-surface:#ffffff;--ods-ink:#0a0a0a;--ods-accent:#21ca59;--ods-accent2:#24bc42;--ods-line:rgba(10,10,10,0.14);--ods-radius:0;}
+html{background:#fcfcfd !important;color-scheme:light;}
+body{background:#fcfcfd !important;color:#0a0a0a !important;font-family:JetBrains Mono, monospace !important;}
+body,p,li,td,th,input,textarea,select,button{font-family:JetBrains Mono, monospace !important;}
+a{color:#21ca59 !important;text-decoration:none !important;transition:color .18s ease;}
+a:hover{color:#24bc42 !important;}
+h1,h2,h3,h4,h5,h6,.panel__heading{color:#0a0a0a !important;font-family:JetBrains Mono, monospace !important;text-transform:none !important;letter-spacing:0 !important;}
+header .top-nav{background:#ffffff !important;border-bottom:1px solid var(--ods-line) !important;box-shadow:none !important;backdrop-filter:none !important;}
+.top-nav__main-menus > li > a,.top-nav__main-menus > li > div{color:#0a0a0a !important;font-weight:600 !important;}
+.top-nav__main-menus > li > a:hover{color:#24bc42 !important;}
+.ratio-bar, .top-nav__ratio-bar, .ratio-bar__uploaded, .ratio-bar__downloaded, .ratio-bar__seeding, .ratio-bar__leeching, .ratio-bar__points, .ratio-bar__ratio, .ratio-bar__tokens, .ratio-bar__site-pot, .ratio-bar__invites, .ratio-bar__lottery-tickets, .ratio-bar__achievements, .ratio-bar__attendance{color:#0a0a0a !important;}
+.ratio-bar a{color:#0a0a0a !important;opacity:.86;}
+.ratio-bar a:hover{opacity:1;color:#21ca59 !important;}
+.panelV2{background:#ffffff !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;overflow:hidden !important;}
+.panel__header{background:rgba(33,202,89,0.08) !important;border-bottom:1px solid var(--ods-line) !important;}
+.panel__heading,.panel__heading h2{font-size:1rem !important;}
+.panel__body{color:#0a0a0a !important;}
+.blocks__featured .featured-shelf__card{background:#ffffff !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;transition:transform .2s ease,box-shadow .2s ease;}
+.blocks__featured .featured-shelf__card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.25);}
+.featured-shelf__title,.featured-shelf__title a{color:#0a0a0a !important;font-weight:700 !important;}
+.featured-shelf__meta,.featured-shelf__by,.featured-shelf__subtitle{color:rgba(10,10,10,0.62) !important;}
+.featured-shelf__badge{background:#21ca59 !important;color:#fcfcfd !important;border-radius:999px !important;font-weight:700 !important;}
+.featured-shelf__seeders{color:#24bc42 !important;}
+.featured-shelf__leechers{color:#21ca59 !important;}
+.footer__wrapper{background:#ffffff !important;border-top:1px solid var(--ods-line) !important;color:rgba(10,10,10,0.78) !important;}
+.footer__section-title{color:#0a0a0a !important;text-transform:none !important;letter-spacing:0 !important;}
+.footer a{color:rgba(10,10,10,0.72) !important;}
+.footer a:hover{color:#21ca59 !important;}
+.footer__stats,.footer__copyright,.footer__sub-footer{color:rgba(10,10,10,0.5) !important;}
+button,.form__button,.cookie-consent__agree{border-radius:8px !important;font-family:JetBrains Mono, monospace !important;}
+.form__button--filled,.cookie-consent__agree{background:#21ca59 !important;color:#fcfcfd !important;border:1px solid transparent !important;transition:filter .18s ease,transform .18s ease;}
+.form__button--filled:hover,.cookie-consent__agree:hover{filter:brightness(1.12);transform:translateY(-1px);}
+.cookie-consent{background:#ffffff !important;color:#0a0a0a !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;}
+
+.panelV2,.featured-shelf__card,.cookie-consent{border-radius:0 !important;border-width:1px !important;box-shadow:8px 8px 0 rgba(10,10,10,0.9) !important;}
+.panelV2:hover,.featured-shelf__card:hover{box-shadow:8px 8px 0 #21ca59 !important;transform:translate(-2px,-2px) !important;}
+.panel__header{background:#21ca59 !important;border-bottom:0 !important;}
+.panel__header *{color:#fcfcfd !important;}
+.form__button--filled{border:2px solid #0a0a0a !important;box-shadow:4px 4px 0 #0a0a0a !important;}
+a{text-decoration:underline !important;text-decoration-thickness:2px;text-underline-offset:2px;}
+h1,h2,h3{text-transform:uppercase !important;}
+.footer__wrapper{border-top:6px solid #0a0a0a !important;}

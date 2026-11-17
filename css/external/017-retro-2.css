@@ -1,0 +1,42 @@
+/* 0DayFiles.net — External stylesheet 017: Retro 2 (engine: retro) */
+:root{--ods-bg:#1f141f;--ods-surface:#321f33;--ods-ink:#f6e9ff;--ods-accent:#87e458;--ods-accent2:#e77e85;--ods-line:rgba(246,233,255,0.14);--ods-radius:0;}
+html{background:#1f141f !important;color-scheme:dark;}
+body{background:#1f141f !important;color:#f6e9ff !important;font-family:Press Start 2P, monospace !important;}
+body,p,li,td,th,input,textarea,select,button{font-family:Press Start 2P, monospace !important;}
+a{color:#87e458 !important;text-decoration:none !important;transition:color .18s ease;}
+a:hover{color:#e77e85 !important;}
+h1,h2,h3,h4,h5,h6,.panel__heading{color:#f6e9ff !important;font-family:Press Start 2P, monospace !important;text-transform:none !important;letter-spacing:0 !important;}
+header .top-nav{background:#321f33 !important;border-bottom:1px solid var(--ods-line) !important;box-shadow:none !important;backdrop-filter:none !important;}
+.top-nav__main-menus > li > a,.top-nav__main-menus > li > div{color:#f6e9ff !important;font-weight:600 !important;}
+.top-nav__main-menus > li > a:hover{color:#e77e85 !important;}
+.ratio-bar, .top-nav__ratio-bar, .ratio-bar__uploaded, .ratio-bar__downloaded, .ratio-bar__seeding, .ratio-bar__leeching, .ratio-bar__points, .ratio-bar__ratio, .ratio-bar__tokens, .ratio-bar__site-pot, .ratio-bar__invites, .ratio-bar__lottery-tickets, .ratio-bar__achievements, .ratio-bar__attendance{color:#f6e9ff !important;}
+.ratio-bar a{color:#f6e9ff !important;opacity:.86;}
+.ratio-bar a:hover{opacity:1;color:#87e458 !important;}
+.panelV2{background:#321f33 !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;overflow:hidden !important;}
+.panel__header{background:rgba(135,228,88,0.08) !important;border-bottom:1px solid var(--ods-line) !important;}
+.panel__heading,.panel__heading h2{font-size:1rem !important;}
+.panel__body{color:#f6e9ff !important;}
+.blocks__featured .featured-shelf__card{background:#321f33 !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;transition:transform .2s ease,box-shadow .2s ease;}
+.blocks__featured .featured-shelf__card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.25);}
+.featured-shelf__title,.featured-shelf__title a{color:#f6e9ff !important;font-weight:700 !important;}
+.featured-shelf__meta,.featured-shelf__by,.featured-shelf__subtitle{color:rgba(246,233,255,0.62) !important;}
+.featured-shelf__badge{background:#87e458 !important;color:#1f141f !important;border-radius:999px !important;font-weight:700 !important;}
+.featured-shelf__seeders{color:#e77e85 !important;}
+.featured-shelf__leechers{color:#87e458 !important;}
+.footer__wrapper{background:#321f33 !important;border-top:1px solid var(--ods-line) !important;color:rgba(246,233,255,0.78) !important;}
+.footer__section-title{color:#f6e9ff !important;text-transform:none !important;letter-spacing:0 !important;}
+.footer a{color:rgba(246,233,255,0.72) !important;}
+.footer a:hover{color:#87e458 !important;}
+.footer__stats,.footer__copyright,.footer__sub-footer{color:rgba(246,233,255,0.5) !important;}
+button,.form__button,.cookie-consent__agree{border-radius:8px !important;font-family:Press Start 2P, monospace !important;}
+.form__button--filled,.cookie-consent__agree{background:#87e458 !important;color:#1f141f !important;border:1px solid transparent !important;transition:filter .18s ease,transform .18s ease;}
+.form__button--filled:hover,.cookie-consent__agree:hover{filter:brightness(1.12);transform:translateY(-1px);}
+.cookie-consent{background:#321f33 !important;color:#f6e9ff !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;}
+
+body{background-image:repeating-linear-gradient(135deg,rgba(135,228,88,0.05) 0 10px,transparent 10px 20px) !important;}
+.panelV2,.featured-shelf__card{border-radius:0 !important;border:3px solid #e77e85 !important;box-shadow:6px 6px 0 #87e458 !important;}
+.panel__header{background:#e77e85 !important;color:#1f141f !important;}
+.panel__header *{color:#1f141f !important;}
+h2,.panel__heading{text-transform:uppercase !important;letter-spacing:.06em !important;}
+.featured-shelf__badge{transform:rotate(-4deg);box-shadow:2px 2px 0 #e77e85;}
+.form__button--filled{box-shadow:4px 4px 0 #e77e85 !important;border:2px solid #e77e85 !important;}

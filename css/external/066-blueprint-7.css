@@ -1,0 +1,41 @@
+/* 0DayFiles.net — External stylesheet 066: Blueprint 7 (engine: blueprint) */
+:root{--ods-bg:#edeee7;--ods-surface:#f8f8f6;--ods-ink:#1a2b3c;--ods-accent:#ca21ca;--ods-accent2:#7f24bc;--ods-line:rgba(26,43,60,0.14);--ods-radius:0;}
+html{background:#edeee7 !important;color-scheme:light;}
+body{background:#edeee7 !important;color:#1a2b3c !important;font-family:IBM Plex Sans, sans-serif !important;}
+body,p,li,td,th,input,textarea,select,button{font-family:IBM Plex Sans, sans-serif !important;}
+a{color:#ca21ca !important;text-decoration:none !important;transition:color .18s ease;}
+a:hover{color:#7f24bc !important;}
+h1,h2,h3,h4,h5,h6,.panel__heading{color:#1a2b3c !important;font-family:IBM Plex Mono, monospace !important;text-transform:none !important;letter-spacing:0 !important;}
+header .top-nav{background:#f8f8f6 !important;border-bottom:1px solid var(--ods-line) !important;box-shadow:none !important;backdrop-filter:none !important;}
+.top-nav__main-menus > li > a,.top-nav__main-menus > li > div{color:#1a2b3c !important;font-weight:600 !important;}
+.top-nav__main-menus > li > a:hover{color:#7f24bc !important;}
+.ratio-bar, .top-nav__ratio-bar, .ratio-bar__uploaded, .ratio-bar__downloaded, .ratio-bar__seeding, .ratio-bar__leeching, .ratio-bar__points, .ratio-bar__ratio, .ratio-bar__tokens, .ratio-bar__site-pot, .ratio-bar__invites, .ratio-bar__lottery-tickets, .ratio-bar__achievements, .ratio-bar__attendance{color:#1a2b3c !important;}
+.ratio-bar a{color:#1a2b3c !important;opacity:.86;}
+.ratio-bar a:hover{opacity:1;color:#ca21ca !important;}
+.panelV2{background:#f8f8f6 !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;overflow:hidden !important;}
+.panel__header{background:rgba(202,33,202,0.08) !important;border-bottom:1px solid var(--ods-line) !important;}
+.panel__heading,.panel__heading h2{font-size:1rem !important;}
+.panel__body{color:#1a2b3c !important;}
+.blocks__featured .featured-shelf__card{background:#f8f8f6 !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;box-shadow:0 8px 24px rgba(0,0,0,.2) !important;transition:transform .2s ease,box-shadow .2s ease;}
+.blocks__featured .featured-shelf__card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.25);}
+.featured-shelf__title,.featured-shelf__title a{color:#1a2b3c !important;font-weight:700 !important;}
+.featured-shelf__meta,.featured-shelf__by,.featured-shelf__subtitle{color:rgba(26,43,60,0.62) !important;}
+.featured-shelf__badge{background:#ca21ca !important;color:#edeee7 !important;border-radius:999px !important;font-weight:700 !important;}
+.featured-shelf__seeders{color:#7f24bc !important;}
+.featured-shelf__leechers{color:#ca21ca !important;}
+.footer__wrapper{background:#f8f8f6 !important;border-top:1px solid var(--ods-line) !important;color:rgba(26,43,60,0.78) !important;}
+.footer__section-title{color:#1a2b3c !important;text-transform:none !important;letter-spacing:0 !important;}
+.footer a{color:rgba(26,43,60,0.72) !important;}
+.footer a:hover{color:#ca21ca !important;}
+.footer__stats,.footer__copyright,.footer__sub-footer{color:rgba(26,43,60,0.5) !important;}
+button,.form__button,.cookie-consent__agree{border-radius:8px !important;font-family:IBM Plex Sans, sans-serif !important;}
+.form__button--filled,.cookie-consent__agree{background:#ca21ca !important;color:#edeee7 !important;border:1px solid transparent !important;transition:filter .18s ease,transform .18s ease;}
+.form__button--filled:hover,.cookie-consent__agree:hover{filter:brightness(1.12);transform:translateY(-1px);}
+.cookie-consent{background:#f8f8f6 !important;color:#1a2b3c !important;border:1px solid var(--ods-line) !important;border-radius:0 !important;}
+
+body{background-image:linear-gradient(rgba(202,33,202,0.07) 1px,transparent 1px),linear-gradient(90deg,rgba(202,33,202,0.07) 1px,transparent 1px) !important;background-size:24px 24px !important;}
+.panelV2,.featured-shelf__card{border:1px solid rgba(202,33,202,0.5) !important;border-radius:0 !important;position:relative;}
+.panelV2::after,.featured-shelf__card::after{content:"";position:absolute;inset:4px;border:1px dotted rgba(202,33,202,0.35);pointer-events:none;}
+.panel__header{background:transparent !important;border-bottom:1px dashed rgba(202,33,202,0.6) !important;}
+h2,.panel__heading{font-family:IBM Plex Mono, monospace !important;letter-spacing:.22em !important;text-transform:uppercase !important;font-size:.8rem !important;}
+.ratio-bar a,.top-nav__main-menus a{font-family:IBM Plex Mono, monospace !important;}
